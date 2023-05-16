@@ -1,0 +1,100 @@
+D:\1\SKUD\obj\Debug\net7.0\SKUD.csproj.AssemblyReference.cache
+D:\1\SKUD\obj\Debug\net7.0\SKUD.GeneratedMSBuildEditorConfig.editorconfig
+D:\1\SKUD\obj\Debug\net7.0\SKUD.AssemblyInfoInputs.cache
+D:\1\SKUD\obj\Debug\net7.0\SKUD.AssemblyInfo.cs
+D:\1\SKUD\obj\Debug\net7.0\SKUD.csproj.CoreCompileInputs.cache
+D:\1\SKUD\bin\Debug\net7.0\SKUD.exe
+D:\1\SKUD\bin\Debug\net7.0\SKUD.deps.json
+D:\1\SKUD\bin\Debug\net7.0\SKUD.runtimeconfig.json
+D:\1\SKUD\bin\Debug\net7.0\SKUD.dll
+D:\1\SKUD\bin\Debug\net7.0\SKUD.pdb
+D:\1\SKUD\bin\Debug\net7.0\Azure.Core.dll
+D:\1\SKUD\bin\Debug\net7.0\Azure.Identity.dll
+D:\1\SKUD\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\1\SKUD\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\1\SKUD\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\1\SKUD\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\1\SKUD\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\1\SKUD\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\1\SKUD\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\1\SKUD\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\1\SKUD\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\1\SKUD\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\1\SKUD\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\1\SKUD\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\1\SKUD\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\1\SKUD\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\1\SKUD\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\1\SKUD\bin\Debug\net7.0\System.Memory.Data.dll
+D:\1\SKUD\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\1\SKUD\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\1\SKUD\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\1\SKUD\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\1\SKUD\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\1\SKUD\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\1\SKUD\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\1\SKUD\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\1\SKUD\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\1\SKUD\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\1\SKUD\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\1\SKUD\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\1\SKUD\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\1\SKUD\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\1\SKUD\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\1\SKUD\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\1\SKUD\obj\Debug\net7.0\SKUD.csproj.CopyComplete
+D:\1\SKUD\obj\Debug\net7.0\SKUD.dll
+D:\1\SKUD\obj\Debug\net7.0\refint\SKUD.dll
+D:\1\SKUD\obj\Debug\net7.0\SKUD.pdb
+D:\1\SKUD\obj\Debug\net7.0\SKUD.genruntimeconfig.cache
+D:\1\SKUD\obj\Debug\net7.0\ref\SKUD.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\SKUD.exe
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\SKUD.deps.json
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\SKUD.runtimeconfig.json
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\SKUD.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\SKUD.pdb
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\obj\Debug\net7.0\SKUD.csproj.AssemblyReference.cache
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\obj\Debug\net7.0\SKUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\obj\Debug\net7.0\SKUD.AssemblyInfoInputs.cache
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\obj\Debug\net7.0\SKUD.AssemblyInfo.cs
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\obj\Debug\net7.0\SKUD.csproj.CoreCompileInputs.cache
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\obj\Debug\net7.0\SKUD.csproj.CopyComplete
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\obj\Debug\net7.0\SKUD.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\obj\Debug\net7.0\refint\SKUD.dll
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\obj\Debug\net7.0\SKUD.pdb
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\obj\Debug\net7.0\SKUD.genruntimeconfig.cache
+C:\Users\criva\OneDrive\Рабочий стол\SKUD\obj\Debug\net7.0\ref\SKUD.dll
