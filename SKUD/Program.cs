@@ -51,7 +51,7 @@ namespace EmployeeRegistration
             bool result1 = db.AddPerson(fio, photo, rfid);
             bool result2 = db.AddEmployee(fio, selectedDepartment, selectedPosition);
 
-            if (result1)
+            if (result1 && result2)
             {
                 Console.WriteLine("Новый сотрудник зарегистрирован.");
             }

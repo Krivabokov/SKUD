@@ -13,9 +13,7 @@ namespace SKUD
     public class ADODB_DS : IDataRep
     {
         SqlConnection conn;
-        /* conn = new SqlConnection(
-                "Server=(localdb)\\MSSQLLocalDB;" +
-                "Database=SKUD_DB;Trusted_Connection=True;");*/
+
         public ADODB_DS()
         {          
             conn = new SqlConnection(
@@ -29,35 +27,51 @@ namespace SKUD
             string sql = "INSERT INTO Person (FIO, Photo, RFID) " +
                          "VALUES (@FIO, @Photo, @RFID)";
 
-            conn.Open();
+            if (conn.State == ConnectionState.Closed)
+            {
+                conn.Open();
+            }
 
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("@FIO", FIO);
-            cmd.Parameters.AddWithValue("@Photo", Photo);
-            cmd.Parameters.AddWithValue("@RFID", RFID);
+            using (SqlCommand cmd = new SqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@FIO", FIO);
+                cmd.Parameters.AddWithValue("@Photo", Photo);
+                cmd.Parameters.AddWithValue("@RFID", RFID);
 
-            int res = cmd.ExecuteNonQuery();
+                int res = cmd.ExecuteNonQuery();
 
-            conn.Close();
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
 
-            return res > 0;
+                return res > 0;
+            }
         }
 
         public bool RemovePerson(string FIO, string RFID)
         {
             string sql = "DELETE FROM Person WHERE FIO = @FIO AND RFID = @RFID";
 
-            conn.Open();
+            if (conn.State == ConnectionState.Closed)
+            {
+                conn.Open();
+            }
 
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("@FIO", FIO);
-            cmd.Parameters.AddWithValue("@RFID", RFID);
+            using (SqlCommand cmd = new SqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@FIO", FIO);
+                cmd.Parameters.AddWithValue("@RFID", RFID);
 
-            int res = cmd.ExecuteNonQuery();
+                int res = cmd.ExecuteNonQuery();
 
-            conn.Close();
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
 
-            return res > 0;
+                return res > 0;
+            }
         }
 
         public bool AddDepartment(string Caption, string HeadName, string Telephone, string Email)
@@ -65,35 +79,51 @@ namespace SKUD
             string sql = "INSERT INTO Department (Caption, HeadName, Telephone, Email) " +
                          "VALUES (@Caption, @HeadName, @Telephone, @Email)";
 
-            conn.Open();
+            if (conn.State == ConnectionState.Closed)
+            {
+                conn.Open();
+            }
 
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("@Caption", Caption);
-            cmd.Parameters.AddWithValue("@HeadName", HeadName);
-            cmd.Parameters.AddWithValue("@Telephone", Telephone);
-            cmd.Parameters.AddWithValue("@Email", Email);
+            using (SqlCommand cmd = new SqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@Caption", Caption);
+                cmd.Parameters.AddWithValue("@HeadName", HeadName);
+                cmd.Parameters.AddWithValue("@Telephone", Telephone);
+                cmd.Parameters.AddWithValue("@Email", Email);
 
-            int res = cmd.ExecuteNonQuery();
+                int res = cmd.ExecuteNonQuery();
 
-            conn.Close();
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
 
-            return res > 0;
+                return res > 0;
+            }
         }
 
         public bool RemoveDepartment(string Caption)
         {
             string sql = "DELETE FROM Department WHERE Caption = @Caption";
 
-            conn.Open();
+            if (conn.State == ConnectionState.Closed)
+            {
+                conn.Open();
+            }
 
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("@Caption", Caption);
+            using (SqlCommand cmd = new SqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@Caption", Caption);
 
-            int res = cmd.ExecuteNonQuery();
+                int res = cmd.ExecuteNonQuery();
 
-            conn.Close();
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
 
-            return res > 0;
+                return res > 0;
+            }
         }
 
         public bool AddPosition(string Caption)
@@ -101,31 +131,48 @@ namespace SKUD
             string sql = "INSERT INTO Position (Caption) " +
                          "VALUES (@Caption)";
 
-            conn.Open();
+            if (conn.State == ConnectionState.Closed)
+            {
+                conn.Open();
+            }
 
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("@Caption", Caption);
+            using (SqlCommand cmd = new SqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@Caption", Caption);
 
-            int res = cmd.ExecuteNonQuery();
+                int res = cmd.ExecuteNonQuery();
 
-            conn.Close();
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
 
-            return res > 0;
+                return res > 0;
+            }
         }
+
         public bool RemovePosition(string Caption)
         {
             string sql = "DELETE FROM Position WHERE Caption = @Caption";
 
-            conn.Open();
+            if (conn.State == ConnectionState.Closed)
+            {
+                conn.Open();
+            }
 
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("@Caption", Caption);
+            using (SqlCommand cmd = new SqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@Caption", Caption);
 
-            int res = cmd.ExecuteNonQuery();
+                int res = cmd.ExecuteNonQuery();
 
-            conn.Close();
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
 
-            return res > 0;
+                return res > 0;
+            }
         }
 
         public bool AddHeadOfDepartment(string Department, string Person)
